@@ -1,10 +1,9 @@
 # Midterm_Project_ML
-Customer Churn Prediction App – Predicts whether a customer is likely to stay or leave using machine learning.
+Customer Churn Prediction App – Predicts whether a customer is likely to stay or leave using machine learning classification model.
+
+### Dataset Overview
 
 **Dataset source** : https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset 
-
-<br>
-## Dataset Overview
 
 The project uses a **customer churn dataset** with 12 features and a target column (`Churn`).
 With this dataset, this project predict whether a customer will leave the service using classification model and deploy streamlit app.
@@ -24,3 +23,16 @@ With this dataset, this project predict whether a customer will leave the servic
 - **Last Interaction** – Days since the customer’s last interaction with the company.  
 - **Churn** – Binary label indicating if the customer has left (`1`) or stayed (`0`).
 
+### File Overview:
+
+All project files are in the same folder:
+
+- churn_streamlit.py – Streamlit app for prediction.
+- 01_churn.ipynb – Notebook for model development and exploration
+- finalchurn.py – model development saved as python file
+- customer_churn_dataset-training-master.csv – given dataset from source
+- customer_churn_dataset-testing-master.csv – given dataset from source
+- churn_model.pkl – Trained ML model 
+- requirements.txt – Python dependencies
+- Images/PUlogo.png – Logo used in the app
+- .gitattributes – Git LFS tracking file
