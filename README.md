@@ -5,7 +5,7 @@ Customer Churn Prediction App – Predicts whether a customer is likely to stay 
 
 **Dataset source** : https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset 
 
-The project uses a **customer churn dataset** with 12 features and a target column (`Churn`).
+The project uses a **customer churn dataset** with 11 features and 1 target column (`Churn`).
 With this dataset, this project predict whether a customer will leave the service using classification model and deploy streamlit app.
 
 ### Features:
