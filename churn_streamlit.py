@@ -47,7 +47,7 @@ with st.expander("Personal Information", expanded= True):
 with st.expander("User Behaviors", expanded= True):
     col1,col2 = st.columns(2)
     with col1: 
-        UsageFrequency = st.slider("Monthly Usage", 0, 30, 10)
+        UsageFrequency = st.number_input("Monthly Usage", 0, 30, 10)
         
     with col2: 
         LastInteraction = st.slider("Days Since Last Interaction", 1, 30, 3)
